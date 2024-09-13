@@ -1,0 +1,82 @@
+.heatmap-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heatmap-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.upload-button {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #0077ed;
+}
+
+.toggle-group {
+    display: flex;
+    background-color: #f5f5f7;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.toggle-label {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-label.active {
+    background-color: #0071e3;
+    color: white;
+}
+
+.toggle-label input {
+    display: none;
+}
+
+.error-message {
+    color: #ff3b30;
+    font-size: 14px;
+}
+
+.info-message {
+    color: #007aff;
+    font-size: 14px;
+}
+
+.heatmap {
+    width: 100%;
+    height: auto;
+    min-height: 830px; /* Reduced from 900px to account for less spacing */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
